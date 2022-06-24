@@ -41,7 +41,7 @@
 h1{background-color: #61dafb;
 color:white;
 text-align: center;
-width: 100%;
+
 margin:0;
 padding: 0.25em;
 border-top: 2px solid black;
@@ -87,3 +87,27 @@ input[type="text"]{
 
 .bd2{width:50px;}
 .bd4{width:100px;}
+
+#erklaerung{
+  margin-left:10px;
+  margin-right:10px; 
+  width: calc(100% - 20px);
+}
+ #ergebnisse{
+  margin-left:10px;
+  margin-right:10px; 
+  display: inline-table;
+  width : calc(100% - 20px);
+}
+#eingabe{
+margin-left:10px;
+margin-right:10px;
+ }
+
+.new-line {
+  white-space: pre-line;
+}
+
+h2{text-align: center;
+color:#61dafb; 
+}
